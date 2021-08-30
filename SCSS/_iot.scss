@@ -1,0 +1,14 @@
+.iot {
+    background: url(../imagenes/IoT_D.png) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Raleway', sans-serif;
+	padding: 80px;
+    & h2{
+        color: $color-texto-claro;
+    }
+    & p{
+        color: $color-texto-claro;
+    }
+}

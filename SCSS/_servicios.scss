@@ -1,0 +1,17 @@
+.servicios {
+    background: url(../imagenes/digital-transformation.jpeg) no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Raleway', sans-serif;
+	padding: 80px;
+
+}
+
+.servicios__contenedor {
+
+	border: $color-borde-gris solid 3px;
+	padding: 20px 30px 30px;
+	background-color: $color-borde-gris;
+	font-family: 'Roboto Condensed', sans-serif;
+}

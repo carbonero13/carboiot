@@ -1,0 +1,955 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.view {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+html {
+  height: 100%;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.pa-0 {
+  padding: 0px;
+}
+
+.pa-5 {
+  padding: 5px;
+}
+
+.pa-10 {
+  padding: 10px;
+}
+
+.pa-15 {
+  padding: 15px;
+}
+
+.pa-20 {
+  padding: 20px;
+}
+
+.pa-25 {
+  padding: 25px;
+}
+
+.pa-30 {
+  padding: 30px;
+}
+
+.pa-40 {
+  padding: 40px;
+}
+
+.pa-50 {
+  padding: 50px;
+}
+
+.pa-60 {
+  padding: 60px;
+}
+
+.pa-70 {
+  padding: 70px;
+}
+
+.pa-80 {
+  padding: 80px;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.pl-50 {
+  padding-left: 50px;
+}
+
+.pl-60 {
+  padding-left: 60px;
+}
+
+.pl-70 {
+  padding-left: 70px;
+}
+
+.pl-80 {
+  padding-left: 80px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-25 {
+  padding-right: 25px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pr-50 {
+  padding-right: 50px;
+}
+
+.pr-60 {
+  padding-right: 60px;
+}
+
+.pr-70 {
+  padding-right: 70px;
+}
+
+.pr-80 {
+  padding-right: 80px;
+}
+
+.he-5 {
+  height: 5%;
+}
+
+.wi-5 {
+  width: 5%;
+}
+
+.he-10 {
+  height: 10%;
+}
+
+.wi-10 {
+  width: 10%;
+}
+
+.he-15 {
+  height: 15%;
+}
+
+.wi-15 {
+  width: 15%;
+}
+
+.he-20 {
+  height: 20%;
+}
+
+.wi-20 {
+  width: 20%;
+}
+
+.he-25 {
+  height: 25%;
+}
+
+.wi-25 {
+  width: 25%;
+}
+
+.he-30 {
+  height: 30%;
+}
+
+.wi-30 {
+  width: 30%;
+}
+
+.he-35 {
+  height: 35%;
+}
+
+.wi-35 {
+  width: 35%;
+}
+
+.he-40 {
+  height: 40%;
+}
+
+.wi-40 {
+  width: 40%;
+}
+
+.he-45 {
+  height: 45%;
+}
+
+.wi-45 {
+  width: 45%;
+}
+
+.he-50 {
+  height: 50%;
+}
+
+.wi-50 {
+  width: 50%;
+}
+
+.he-55 {
+  height: 55%;
+}
+
+.wi-55 {
+  width: 55%;
+}
+
+.he-60 {
+  height: 60%;
+}
+
+.wi-60 {
+  width: 60%;
+}
+
+.he-65 {
+  height: 65%;
+}
+
+.wi-65 {
+  width: 65%;
+}
+
+.he-70 {
+  height: 70%;
+}
+
+.wi-70 {
+  width: 70%;
+}
+
+.he-75 {
+  height: 75%;
+}
+
+.wi-75 {
+  width: 75%;
+}
+
+.he-80 {
+  height: 80%;
+}
+
+.wi-80 {
+  width: 80%;
+}
+
+.he-85 {
+  height: 85%;
+}
+
+.wi-85 {
+  width: 85%;
+}
+
+.he-90 {
+  height: 90%;
+}
+
+.wi-90 {
+  width: 90%;
+}
+
+.he-95 {
+  height: 95%;
+}
+
+.wi-95 {
+  width: 95%;
+}
+
+.he-100 {
+  height: 100%;
+}
+
+.wi-100 {
+  width: 100%;
+}
+
+.contacto__formulario--icon {
+  list-style: none;
+  text-align: center;
+  padding: 40px;
+}
+
+.contacto__formulario--icon li {
+  display: inline-block;
+}
+
+.contacto__formulario--icon li a i.fa {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  transition: all 0.7s ease-in-out;
+}
+
+.contacto__formulario--icon li a i.fa:hover {
+  border-radius: 50%;
+}
+
+.contacto__formulario {
+  margin: 0 auto;
+  background-color: rgba(59, 87, 91, 0.57);
+}
+
+.contacto__formulario--1 {
+  float: left;
+}
+
+.contacto__formulario--2 {
+  background: url(../imagenes/contacto_1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 615px;
+}
+
+.contacto__formulario--info {
+  padding: 30px 40px;
+}
+
+.contacto {
+  background: url(../imagenes/contacto2.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px;
+}
+
+.contacto__formulario--form {
+  display: block;
+  font-size: 17px;
+  font-weight: normal;
+  color: #f5f5f5;
+  text-align: center;
+  background-color: rgba(0, 41, 38, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.contacto__formulario--imput__username {
+  height: 45px;
+  width: 95%;
+  padding: 0 25px;
+}
+
+.contacto__formulario--imput__username:focus {
+  background-color: color-fondo-transparente;
+  border: 1px solid #f5f5f5;
+}
+
+.contacto__formulario--imput__email {
+  height: 45px;
+  width: 95%;
+  padding: 0 25px;
+}
+
+.contacto__formulario--imput__email:focus {
+  background-color: color-fondo-transparente;
+  border: 1px solid #f5f5f5;
+}
+
+.contacto__formulario--text__message {
+  height: 135px;
+  width: 95%;
+  padding: 15px;
+}
+
+.contacto__formulario--text__message:focus {
+  background-color: color-fondo-transparente;
+  border: 1px solid #f5f5f5;
+}
+
+.contacto__formulario--imput__sign-in {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #f5f5f5;
+  display: block;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.contacto__formulario--imput__sign-in:hover {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: #f5f5f5;
+}
+
+.contacto__formulario--titulo {
+  font-size: 25px;
+  font-weight: normal;
+  color: #f5f5f5;
+  text-align: CENTER;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contacto__formulario--clear {
+  clear: both;
+}
+
+.page-footer {
+  background-color: #1C2331;
+}
+
+.social {
+  padding: 15px;
+  background-color: #1C2331;
+  color: white;
+  text-align: center;
+}
+
+.social__icon {
+  list-style: none;
+  text-align: center;
+}
+
+.social__icon li {
+  display: inline-block;
+}
+
+.social__icon li a i.fa {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.7s ease-in-out;
+}
+
+.social__icon li a i.fa:hover {
+  border-radius: 50%;
+}
+
+.social__icon li a i.fa.fa-facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social__icon li a i.fa.fa-twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.social__icon li a i.fa.fa-instagram:hover {
+  background-color: #C13584;
+  color: #fff;
+}
+
+.social__icon li a i.fa.fa-linkedin:hover {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.486);
+  height: 220px;
+  left: 10%;
+  top: 100px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "IoT Industria" "Agro Logistica";
+  margin: 0;
+  visibility: hidden;
+}
+
+.grid__item {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid__item--iot {
+  grid-area: IoT;
+  background-image: url(../imagenes/IoT_v8.jpg);
+}
+
+.grid__item--industria {
+  grid-area: Industria;
+  background-image: url(../imagenes/Industria4.0.jpg);
+}
+
+.grid__item--agro {
+  grid-area: Agro;
+  background-image: url(../imagenes/massey-furgeson-fuse.jpg);
+}
+
+.grid__item--logistica {
+  grid-area: Logistica;
+  background-image: url(../imagenes/microsoftteams-image-2.png);
+}
+
+.carousel-caption-movil {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.486);
+  height: 150px;
+  left: 50px;
+  top: 60px;
+  padding: 10px;
+  text-align: left;
+  width: 300px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 60px !important;
+  font-size: 20px;
+}
+
+.navbar-nav li:nth-child(1):hover {
+  background: #00bfc8;
+}
+
+.navbar-nav li:nth-child(2):hover {
+  background: #ff9af1;
+}
+
+.navbar-nav li:nth-child(3):hover {
+  background: #adc900;
+}
+
+.navbar-nav li:nth-child(4):hover {
+  background: #ff8500;
+}
+
+.navbar-nav li:nth-child(5):hover {
+  background-color: #b82c8d;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: #f5f5f5;
+  padding: 16px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.navbar-nav a:hover {
+  background-size: 100% 2px;
+}
+
+.navbar-nav a:focus {
+  background-size: 100% 2px;
+}
+
+.navbar-brand img {
+  height: 50px !important;
+}
+
+.top-nav-collapse {
+  background-color: #1C2331;
+}
+
+.nosotros {
+  background: url(../imagenes/nosotros_fondo.jpg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px;
+}
+
+.nosotros__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
+  gap: 5px 5px;
+  grid-auto-flow: row dense;
+  grid-template-areas: "Area-0 Area-0 Area-0 Area-0 Area-0" "Area-1 Area-1 Area-2 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-6 Area-6" "Area-7 Area-7 Area-8 Area-8 Area-8";
+  border: #e5e5e5 solid 3px;
+  padding: 20px 30px 30px;
+  background-color: #e5e5e5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nosotros__grid--area-0 {
+  grid-area: Area-0;
+  min-height: 400px;
+  background: url(../imagenes/teams2.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.nosotros__grid--area-1 {
+  grid-area: Area-1;
+  background-color: #b82c8d;
+  padding-right: 50px;
+  color: #f5f5f5;
+}
+
+.nosotros__grid--area-2 {
+  grid-area: Area-2;
+  background: url(../imagenes/Fozzie2.jpg) no-repeat;
+  background-position: top;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.nosotros__grid--Area-3 {
+  grid-area: Area-3;
+  background-color: #00bfc8;
+}
+
+.nosotros__grid--Area-5 {
+  grid-area: Area-5;
+  background-color: whitesmoke;
+}
+
+.nosotros__grid--Area-4 {
+  grid-area: Area-4;
+  background-color: #ff8500;
+  text-align: center;
+}
+
+.nosotros__grid--Area-6 {
+  grid-area: Area-6;
+  background-color: #adc900;
+}
+
+.nosotros__grid--Area-7 {
+  grid-area: Area-7;
+  background-color: #ff9af1;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.nosotros__grid--Area-8 {
+  grid-area: Area-8;
+  background-color: #f5f5f5;
+}
+
+.nosotros__equipo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #f5f5f5;
+  border: 2px solid #f5f5f5;
+}
+
+.nosotros__equipo p {
+  color: #f5f5f5;
+  margin: 10px 20px 10px 20px;
+}
+
+.centrar__texto-imagen {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  border: none;
+}
+
+.directo {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+  border: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-items {
+  padding-left: 5px;
+  justify-self: center;
+  align-self: center;
+  padding-right: 5px;
+}
+
+.imagen--Redonda {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.servicios {
+  background: url(../imagenes/digital-transformation.jpeg) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px;
+}
+
+.servicios__contenedor {
+  border: #e5e5e5 solid 3px;
+  padding: 20px 30px 30px;
+  background-color: #e5e5e5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.iot {
+  background: url(../imagenes/IoT_D.png) no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Raleway', sans-serif;
+  padding: 80px;
+}
+
+.iot h2 {
+  color: #f5f5f5;
+}
+
+.iot p {
+  color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331;
+  }
+  .navbar-brand img {
+    height: 40px !important;
+  }
+  .grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr !important;
+    grid-template-areas: "IoT" "Industria" "Agro" "Logistica" !important;
+    height: 1200px !important;
+    margin: 0 !important;
+    visibility: visible !important;
+    object-fit: cover !important;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .container-lg {
+    max-width: 100%;
+  }
+  .container-md {
+    max-width: 100%;
+  }
+  .container-sm {
+    max-width: 100%;
+  }
+  .container-sx {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #1C2331;
+  }
+  .navbar-brand img {
+    height: 40px !important;
+  }
+  .grid {
+    visibility: visible;
+    height: 500px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .container-lg {
+    max-width: 100%;
+  }
+  .container-md {
+    max-width: 100%;
+  }
+  .container-sm {
+    max-width: 100%;
+  }
+  .container-sx {
+    max-width: 100%;
+  }
+}

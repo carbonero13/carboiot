@@ -721,7 +721,7 @@ html {
   height: 50px !important;
 }
 
-.top-nav-collapse {
+.top-nav-scroll {
   background-color: #1C2331;
 }
 
@@ -740,7 +740,12 @@ html {
   grid-template-rows: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
   gap: 5px 5px;
   grid-auto-flow: row dense;
-  grid-template-areas: "Area-0 Area-0 Area-0 Area-0 Area-0" "Area-1 Area-1 Area-2 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-3 Area-3" "Area-4 Area-5 Area-5 Area-6 Area-6" "Area-7 Area-7 Area-8 Area-8 Area-8";
+  grid-template-areas: "Area-0 Area-0 Area-0 Area-0 Area-0"
+ "Area-1 Area-1 Area-2 Area-3 Area-3"
+ "Area-4 Area-5 Area-5 Area-3 Area-3"
+ "Area-4 Area-5 Area-5 Area-3 Area-3"
+ "Area-4 Area-5 Area-5 Area-6 Area-6"
+ "Area-7 Area-7 Area-8 Area-8 Area-8";
   border: #e5e5e5 solid 3px;
   padding: 20px 30px 30px;
   background-color: #e5e5e5;

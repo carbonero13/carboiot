@@ -162,7 +162,7 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-  height: 100vh;
+  height: 50vh;
 }
 
 .carousel-item:nth-child(1) {
@@ -198,8 +198,34 @@
   #introCarousel {
     margin-top: -58.59px;
   }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100vh;
+  }
+  #intro{
+    height: 100vh;
+  }
 }
 
 .navbar .nav-link {
   color: #fff !important;
+}
+
+/*Servicios*/
+.vertical-align{
+  display: flex;
+  flex-direction:column ;
+  align-self: center;
+}
+#intro{
+  height: 50vh;
+}
+
+.mask-servicios{
+  background-image: url(../imagenes/contacto.jpg);
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
 }

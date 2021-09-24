@@ -2,126 +2,204 @@
 
 /* NavBar */
 
-.navbar-brand-desktop img{
-    /* padding-top: 5px; */
-    padding-right: 20px;
-    height: 50px !important;
-  }
+.navbar-brand-desktop img {
+  /* padding-top: 5px; */
+  padding-right: 20px;
+  height: 50px !important;
+}
 
-  .navbar-brand-movil img {
-   
-   height: 35px !important;
-   }
-  .navbar-nav li:nth-child(1):hover {
-    background: #00bfc8;
-  }
-  
-  .navbar-nav li:nth-child(2):hover {
-    background: #ff9af1;
-  }
-  
-  .navbar-nav li:nth-child(3):hover {
-    background: #adc900;
-  }
-  
-  .navbar-nav li:nth-child(4):hover {
-    background: #ff8500;
-  }
-  
-  .navbar-nav li:nth-child(5):hover {
-    background-color: #b82c8d;
-  }
+.navbar-brand-movil img {
 
-  .navbar-nav a:hover {
-    background-size: 100% 2px;
-  }
-  
-  .navbar-nav a:focus {
-    background-size: 100% 2px;
-  }
-  .navbar {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 60px !important;
-    font-size: 20px;
- 
-  }
-  .navbar-nav li a {
-    text-decoration: none;
-    /* color: yellow; */
-    
-    padding-bottom: 10px;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-  }
-  #navbarToggleExternalContent3{
-      padding-top: 40px;
-  }
-  .btn-info{
-      background-color: #00bfc8 ;
-      height: 70%;
-  } 
-  .btn-danger{
-    background-color: #ff9af1;
-} 
-.btn-success{
-    background-color: #adc900;
-} 
-.btn-warning{
-    background-color: #ff8500;
-} 
-.btn-secondary{
-    background-color: #b82c8d;
-} 
+  height: 35px !important;
+}
 
-  
+.navbar-nav li:nth-child(1):hover {
+  background: #00bfc8;
+}
+
+.navbar-nav li:nth-child(2):hover {
+  background: #ff9af1;
+}
+
+.navbar-nav li:nth-child(3):hover {
+  background: #adc900;
+}
+
+.navbar-nav li:nth-child(4):hover {
+  background: #ff8500;
+}
+
+.navbar-nav li:nth-child(5):hover {
+  background-color: #b82c8d;
+}
+
+.navbar-nav a:hover {
+  background-size: 100% 2px;
+}
+
+.navbar-nav a:focus {
+  background-size: 100% 2px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 60px !important;
+  font-size: 20px;
+
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  /* color: yellow; */
+
+  padding-bottom: 10px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+#navbarToggleExternalContent3 {
+  padding-top: 40px;
+}
+
+.btn-info {
+  background-color: #00bfc8;
+  height: 70%;
+}
+
+.btn-danger {
+  background-color: #ff9af1;
+}
+
+.btn-success {
+  background-color: #adc900;
+}
+
+.btn-warning {
+  background-color: #ff8500;
+}
+
+.btn-secondary {
+  background-color: #b82c8d;
+}
+
+
 
 
 /*  Red Social*/
 
 .social {
-    padding: 15px;
-    color: grey;
-    text-align: center;
+  padding: 15px;
+  color: grey;
+  text-align: center;
+}
+
+
+
+.social__icon a i.fa,
+.social__icon a i.fas {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #1C2331;
+  border: 1px solid #1C2331;
+  transition: all 0.7s ease-in-out;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 20%;
+}
+
+.social__icon a i.fa:hover,
+.social__icon a i.fas:hover {
+  border-radius: 50%;
+}
+
+.social__icon a i.fa.fa-facebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-twitter:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-instagram:hover {
+  background-color: #C13584;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-linkedin:hover {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-whatsapp:hover {
+  background-color: #00bb2d;
+  color: #fff;
+}
+
+.social__icon a i.fas.fa-map-marker-alt:hover {
+  background-color: #ff8500;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-envelope-o:hover {
+  background-color: coral;
+  color: #fff;
+}
+
+.social__icon a i.fa.fa-phone:hover {
+  background-color: darkviolet;
+  color: #fff;
+}
+
+/* Carousel */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('../imagenes/IoT_v8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url('../imagenes/Industria4.0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url('../imagenes/massey-furgeson-fuse.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url('../imagenes/microsoftteams-image-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
   }
-  
- 
-  
-  .social__icon a i.fa {
-    width: 45px;
-    height: 45px;
-    text-align: center;
-    line-height: 45px;
-    color: #1C2331;
-    border: 1px solid #1C2331;
-    transition: all 0.7s ease-in-out;
-    margin-left: 10px ;
-    margin-right: 10px;
-    border-radius: 20%;
-  }
-  
-  .social__icon a i.fa:hover {
-    border-radius: 50%;
-  }
-  
-  .social__icon a i.fa.fa-facebook:hover {
-    background-color: #3b5998;
-    color: #fff;
-  }
-  
-  .social__icon a i.fa.fa-twitter:hover {
-    background-color: #1da1f2;
-    color: #fff;
-  }
-  
-  .social__icon a i.fa.fa-instagram:hover {
-    background-color: #C13584;
-    color: #fff;
-  }
-  
-  .social__icon a i.fa.fa-linkedin:hover {
-    background-color: #0077b5;
-    color: #fff;
-  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}

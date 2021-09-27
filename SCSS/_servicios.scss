@@ -1,97 +1,16 @@
-.servicios {
-	background: url(../imagenes/digital-transformation.jpeg) no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	font-family: 'Raleway', sans-serif;
-	padding: 80px;
-
-}
-
-.servicios__contenedor {
-
-	border: $color-borde-gris solid 3px;
-	padding: 20px 30px 30px;
-	background-color: $color-borde-gris;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.article-row-section {
-	max-width: 75rem;
-	margin-right: auto;
-	margin-left: auto;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-}
-
-.article-row-section-inner {
-
-	flex: 0 0 100%;
-	max-width: 100%;
-	padding-right: 0.625rem;
-	padding-left: 0.625rem;
-	max-width: 100%;
-}
-
-
-
-
-
-.article-row-section-header {
-	padding: 1.5rem 0;
-	margin: 0;
-	line-height: 1;
-}
-
-.article-row {
-	display: flex;
-	flex-direction: column;
-	border-top: 1px solid #e6e6e6;
-	padding: 1.5rem 0;
-}
-
-
-
-.article-row-img img {
-	width: 100%;
-}
-
-
-
-.article-row-content {
-	padding: 1.5rem 0 0;
-	color: #0a0a0a;
-}
-
-
-
-.article-row-content-header {
-	font-size: 1.5rem;
-}
-
-.article-row-content-description {
-	font-size: 1.25rem;
-}
-
-.article-row-content-author,
-.article-row-content-time {
-	font-size: 0.875rem;
-	margin-bottom: 0;
-	color: #8a8a8a;
-}
-
-.article-row-reversed .article-row-content {
-	order: 2;
-	padding: 0 1.5rem 0 0;
-}
-
-.article-row-reversed .article-row-img {
-	order: 1;
-	padding: 0 0 1.5rem 0;
-}
-
-.img-thumbnail {
-	width: 200px;
-	height: 200px;
-}
+/*Servicios*/
+.vertical-align{
+    display: flex;
+    flex-direction:column ;
+    align-self: center;
+  }
+  #intro-servicios{
+    height: 50vh;
+  }
+  
+  .mask-servicios{
+    background-image: url(../imagenes/contacto.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }

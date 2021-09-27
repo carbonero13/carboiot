@@ -1,140 +1,28 @@
 
+@media (min-width: 992px) {
+    #introCarousel {
+      margin-top: -58.59px;
+    }
+    #introCarousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100vh;
+    }
+    #intro{
+      height: 100vh ;
+    }
+    #intro-iot{
+      height: 50vh ;
+    }
+    #intro-servicios{
+      height: 50vh ;
+    }
+    #intro-nosotros{
+      height: 85vh !important;
+    }
+    #intro-contacto{
+      height: 50vh !important;
+    }
 
-
-@media screen  and (max-width: 768px) {
-	.navbar {
-		background-color: $color-fondo;
-	}
-
-	.navbar-brand {
-		img {
-			height: 40px !important;
-		}
-	}
-
-	.grid {
-		grid-template-columns: 1fr !important;
-		grid-template-rows: 1fr 1fr 1fr 1fr !important;
-		grid-template-areas: "IoT""Industria""Agro""Logistica" !important;
-		height: 1200px !important;
-		margin: 0 !important;
-		visibility: visible !important;
-		object-fit: cover !important;
-	}
-
-	.container {
-		max-width: 100%;
-	}
-
-	.container-lg {
-		max-width: 100%;
-	}
-
-	.container-md {
-		max-width: 100%;
-	}
-
-	.container-sm {
-		max-width: 100%;
-	}
-	.container-sx {
-		max-width: 100%;
-	}
-}
-
-
-
-
-
-
-@media screen and (min-width: 769px) and (max-width: 991px) {
-	.navbar {
-		&:not(.top-nav-collapse) {
-			background-color: $color-fondo;
-		}
-	}
-
-	.navbar-brand {
-		img {
-			height: 40px !important;
-		}
-	}
-
-	.grid {
-		visibility: visible;
-		height: 500px;
-	}
-
-	.container {
-		max-width: 100%;
-	}
-
-	.container-lg {
-		max-width: 100%;
-	}
-
-	.container-md {
-		max-width: 100%;
-	}
-
-	.container-sm {
-		max-width: 100%;
-	}
-	.container-sx {
-		max-width: 100%;
-	}
-}
-@media print,
-screen and (min-width: 40em) {
-	.article-row-reversed .article-row-content {
-		order: 1;
-	}
-
-	.article-row-reversed .article-row-img {
-		order: 2;
-	}
-}
-@media print,
-screen and (min-width: 40em) {
-	.article-row-content {
-		padding: 0 0 0 1.5rem;
-	}
-}
-@media print,
-screen and (min-width: 40em) {
-	.article-row-img img {
-		max-width: none;
-		width: auto;
-	}
-}
-@media print,
-screen and (min-width: 40em) {
-	.article-row {
-		flex-direction: row;
-	}
-}
-@media print,
-screen and (min-width: 40em) and (min-width: 40em) {
-	.article-row-section-inner {
-		padding-right: 0.9375rem;
-		padding-left: 0.9375rem;
-	}
-}
-@media print,
-screen and (min-width: 40em) {
-	.article-row-section-inner {
-		padding-right: 0.9375rem;
-		padding-left: 0.9375rem;
-	}
-}
-
-@media print,
-screen and (min-width: 40em) {
-	.article-row-section-inner {
-		flex: 0 0 83.33333%;
-		max-width: 83.33333%;
-		padding-right: 0.625rem;
-		padding-left: 0.625rem;
-		max-width: 83.33333%;
-	}
-}
+  }

@@ -1,100 +1,71 @@
-/* Variables */
-
-/* NavBar */
-
-.navbar-brand-desktop img {
-  /* padding-top: 5px; */
-  padding-right: 20px;
-  height: 50px !important;
+.centrar__texto-imagen {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  border: none;
 }
 
-.navbar-brand-movil img {
-
-  height: 35px !important;
+.directo {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+  border: none;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.navbar-nav li:nth-child(1):hover {
-  background: #00bfc8;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
-.navbar-nav li:nth-child(2):hover {
-  background: #ff9af1;
+.flex-items {
+  padding-left: 5px;
+  justify-self: center;
+  align-self: center;
+  padding-right: 5px;
 }
 
-.navbar-nav li:nth-child(3):hover {
-  background: #adc900;
+.imagen--Redonda {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-.navbar-nav li:nth-child(4):hover {
-  background: #ff8500;
+/*contacto*/
+.mask-custom {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3em;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-.navbar-nav li:nth-child(5):hover {
-  background-color: #b82c8d;
-}
-
-.navbar-nav a:hover {
-  background-size: 100% 2px;
-}
-
-.navbar-nav a:focus {
-  background-size: 100% 2px;
-}
-
-.navbar {
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 60px !important;
-  font-size: 20px;
-
-}
-
-.navbar-nav li a {
-  text-decoration: none;
-  /* color: yellow; */
-
-  padding-bottom: 10px;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
+.mask-contacto {
+  background-image: url(../imagenes/Contact-Us-Header.jpg);
   background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s;
+  background-size: cover;
+  background-position: center center;
 }
 
-
-
-.btn-info {
-  background-color: #00bfc8;
-  height: 70%;
+#intro-contacto {
+  height: 50vh !important;
 }
-
-.btn-danger {
-  background-color: #ff9af1;
-}
-
-.btn-success {
-  background-color: #adc900;
-}
-
-.btn-warning {
-  background-color: #ff8500;
-}
-
-.btn-secondary {
-  background-color: #b82c8d;
-}
-
-
-
 
 /*  Red Social*/
-
 .social {
   padding: 15px;
   color: grey;
   text-align: center;
 }
-
-
 
 .social__icon a i.fa,
 .social__icon a i.fas {
@@ -164,232 +135,152 @@
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url('../imagenes/IoT_v8.jpg');
+  background-image: url("../imagenes/IoT_v8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url('../imagenes/Industria4.0.jpg');
+  background-image: url("../imagenes/Industria4.0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url('../imagenes/massey-furgeson-fuse.jpg');
+  background-image: url("../imagenes/massey-furgeson-fuse.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(4) {
-  background-image: url('../imagenes/microsoftteams-image-2.png');
+  background-image: url("../imagenes/microsoftteams-image-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
-/* Height for devices larger than 576px */
-@media (min-width: 992px) {
-  #introCarousel {
-    margin-top: -58.59px;
-  }
-  #introCarousel,
-  .carousel-inner,
-  .carousel-item,
-  .carousel-item.active {
-    height: 100vh;
-  }
-  #intro{
-    height: 100vh ;
-  }
-  #intro-nosotros{
-    height: 75vh !important;
-  }
+/* NavBar */
+.navbar-brand-desktop img {
+  /* padding-top: 5px; */
+  padding-right: 20px;
+  height: 50px !important;
+}
+
+.navbar-brand-movil img {
+  height: 35px !important;
+}
+
+.navbar-nav li:nth-child(1):hover {
+  background: #00bfc8;
+}
+
+.navbar-nav li:nth-child(2):hover {
+  background: #ff9af1;
+}
+
+.navbar-nav li:nth-child(3):hover {
+  background: #adc900;
+}
+
+.navbar-nav li:nth-child(4):hover {
+  background: #ff8500;
+}
+
+.navbar-nav li:nth-child(5):hover {
+  background-color: #b82c8d;
+}
+
+.navbar-nav a:hover {
+  background-size: 100% 2px;
+}
+
+.navbar-nav a:focus {
+  background-size: 100% 2px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 60px !important;
+  font-size: 20px;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  /* color: yellow; */
+  padding-bottom: 10px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.btn-info {
+  background-color: #00bfc8;
+  height: 70%;
+}
+
+.btn-danger {
+  background-color: #ff9af1;
+}
+
+.btn-success {
+  background-color: #adc900;
+}
+
+.btn-warning {
+  background-color: #ff8500;
+}
+
+.btn-secondary {
+  background-color: #b82c8d;
 }
 
 .navbar .nav-link {
   color: #fff !important;
 }
 
-/*Servicios*/
-.vertical-align{
-  display: flex;
-  flex-direction:column ;
-  align-self: center;
-}
-#intro{
-  height: 50vh;
+/*Nosotros*/
+.mask-nosotros {
+  background-image: url(../imagenes/muppets1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.mask-servicios{
-  background-image: url(../imagenes/contacto.jpg);
-  background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+#intro-nosotros {
+  height: 60vh !important;
 }
 
 /*Nosotros*/
-.nosotros {
-  background: url(../imagenes/nosotros_fondo.jpg) no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  font-family: 'Raleway', sans-serif;
-  padding: 80px;
-}
-
-.nosotros__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr;
-  gap: 5px 5px;
-  grid-auto-flow: row dense;
-  grid-template-areas: "Area-0 Area-0 Area-0 Area-0 Area-0"
- "Area-1 Area-1 Area-2 Area-3 Area-3"
- "Area-4 Area-5 Area-5 Area-3 Area-3"
- "Area-4 Area-5 Area-5 Area-3 Area-3"
- "Area-4 Area-5 Area-5 Area-6 Area-6"
- "Area-7 Area-7 Area-8 Area-8 Area-8";
-  border: #e5e5e5 solid 3px;
-  padding: 20px 30px 30px;
-  background-color: #e5e5e5;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.nosotros__grid--area-0 {
-  grid-area: Area-0;
-  min-height: 400px;
-  background: url(../imagenes/teams2.jpg) no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-}
-
-.nosotros__grid--area-1 {
-  grid-area: Area-1;
-  background-color: #b82c8d;
-  padding-right: 50px;
-  color: #f5f5f5;
-}
-
-.nosotros__grid--area-2 {
-  grid-area: Area-2;
-  background: url(../imagenes/Fozzie2.jpg) no-repeat;
-  background-position: top;
-  background-size: cover;
-  object-fit: cover;
-}
-
-.nosotros__grid--Area-3 {
-  grid-area: Area-3;
-  background-color: #00bfc8;
-}
-
-.nosotros__grid--Area-5 {
-  grid-area: Area-5;
-  background-color: whitesmoke;
-}
-
-.nosotros__grid--Area-4 {
-  grid-area: Area-4;
-  background-color: #ff8500;
-  text-align: center;
-}
-
-.nosotros__grid--Area-6 {
-  grid-area: Area-6;
-  background-color: #adc900;
-}
-
-.nosotros__grid--Area-7 {
-  grid-area: Area-7;
-  background-color: #ff9af1;
-  align-items: center;
-  justify-content: center;
-  justify-self: center;
-  justify-items: center;
-  align-content: center;
-}
-
-.nosotros__grid--Area-8 {
-  grid-area: Area-8;
-  background-color: #f5f5f5;
-}
-
-.nosotros__equipo {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 40px;
-  font-weight: 400;
-  color: #f5f5f5;
-  border: 2px solid #f5f5f5;
-}
-
-.nosotros__equipo p {
-  color: #f5f5f5;
-  margin: 10px 20px 10px 20px;
-}
-
-.mask-nosotros{
-  background-image: url(../imagenes/muppets1.png);
-  background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-#intro-nosotros{
-  height: 60vh;
-  
-}
-.centrar__texto-imagen {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  width: 100%;
-  border: none;
-}
-
-.directo {
-  align-items: flex-end;
+/*Servicios*/
+.vertical-align {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  height: 100%;
-  justify-content: flex-end;
-  width: 100%;
-  border: none;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.flex-items {
-  padding-left: 5px;
-  justify-self: center;
   align-self: center;
-  padding-right: 5px;
 }
 
-.imagen--Redonda {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+#intro-servicios {
+  height: 50vh;
+}
+
+.mask-servicios {
+  background-image: url(../imagenes/contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /*timeline*/
-
 .timeline {
   list-style: none;
   padding: 20px;
   position: relative;
 }
+
 .timeline:before {
   top: 40px;
   bottom: 0;
@@ -400,17 +291,21 @@ background-position: center center;
   left: 50%;
   margin-left: -1.5px;
 }
+
 .timeline .timeline-item {
   margin-bottom: 20px;
   position: relative;
 }
+
 .timeline .timeline-item:before, .timeline .timeline-item:after {
   content: "";
   display: table;
 }
+
 .timeline .timeline-item:after {
   clear: both;
 }
+
 .timeline .timeline-item .timeline-badge {
   color: #fff;
   width: 54px;
@@ -430,25 +325,32 @@ background-position: center center;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
+
 .timeline .timeline-item .timeline-badge i, .timeline .timeline-item .timeline-badge .fa, .timeline .timeline-item .timeline-badge .glyphicon {
   top: 2px;
   left: 0px;
 }
+
 .timeline .timeline-item .timeline-badge.primary {
   background-color: #1f9eba;
 }
+
 .timeline .timeline-item .timeline-badge.info {
   background-color: #5bc0de;
 }
+
 .timeline .timeline-item .timeline-badge.success {
   background-color: #59ba1f;
 }
+
 .timeline .timeline-item .timeline-badge.warning {
   background-color: #d1bd10;
 }
+
 .timeline .timeline-item .timeline-badge.danger {
   background-color: #ba1f1f;
 }
+
 .timeline .timeline-item .timeline-panel {
   position: relative;
   width: 46%;
@@ -461,6 +363,7 @@ background-position: center center;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
+
 .timeline .timeline-item .timeline-panel:before {
   position: absolute;
   top: 26px;
@@ -472,23 +375,29 @@ background-position: center center;
   border-bottom: 16px solid transparent;
   content: " ";
 }
+
 .timeline .timeline-item .timeline-panel .timeline-title {
   margin-top: 0;
   color: inherit;
 }
+
 .timeline .timeline-item .timeline-panel .timeline-body > p, .timeline .timeline-item .timeline-panel .timeline-body > ul {
   margin-bottom: 0;
 }
+
 .timeline .timeline-item .timeline-panel .timeline-body > p + p {
   margin-top: 5px;
 }
+
 .timeline .timeline-item:last-child:nth-child(even) {
   float: right;
 }
+
 .timeline .timeline-item:nth-child(even) .timeline-panel {
   float: right;
   left: 16px;
 }
+
 .timeline .timeline-item:nth-child(even) .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 14px;
@@ -496,31 +405,40 @@ background-position: center center;
   right: auto;
 }
 
-.mask-iot{
+.mask-iot {
   background-image: url(../imagenes/contacto.jpg);
   background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+  background-size: cover;
+  background-position: center center;
 }
 
-
-
-/*contacto*/
-
-
-
-.mask-custom {
-  backdrop-filter: blur(15px);
-  background-color: rgba(255,255,255,.2);
-  border-radius: 3em;
-  border: 2px solid rgba(255,255,255,.1);
-  background-clip: padding-box;
-  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+#intro-iot {
+  height: 60vh !important;
 }
 
-.mask-contacto{
-  background-image: url(../imagenes/Contact-Us-Header.jpg);
-  background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100vh;
+  }
+  #intro {
+    height: 100vh;
+  }
+  #intro-iot {
+    height: 50vh;
+  }
+  #intro-servicios {
+    height: 50vh;
+  }
+  #intro-nosotros {
+    height: 85vh !important;
+  }
+  #intro-contacto {
+    height: 50vh !important;
+  }
 }

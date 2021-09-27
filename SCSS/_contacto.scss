@@ -1,143 +1,25 @@
 
-.contacto__formulario--icon {
-	list-style: none;
-	text-align: center;
-	padding: 40px;
 
-	li {
-		display: inline-block;
-
-		a {
-			i.fa {
-				width: 45px;
-				height: 45px;
-				text-align: center;
-				line-height: 45px;
-				color: $color-texto-claro;
-				border: 1px solid $color-texto-claro;
-				transition: all 0.7s ease-in-out;
-
-				&:hover {
-					border-radius: 50%;
-				}
-			}
-		}
-	}
-}
-
-.contacto__formulario {
-
-	margin: 0 auto;
-	background-color: rgba(59, 87, 91, 0.57);
-}
+/*contacto*/
 
 
-.contacto__formulario--1 {
-	
-	float: left;
-}
 
-.contacto__formulario--2 {
-	background: url(../imagenes/contacto_1.jpg) no-repeat;
-	background-position: center;
-	background-size: cover;
-	min-height: 615px;
-}
+.mask-custom {
+    backdrop-filter: blur(15px);
+    background-color: rgba(255,255,255,.2);
+    border-radius: 3em;
+    border: 2px solid rgba(255,255,255,.1);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+  }
+  
+  .mask-contacto{
+    background-image: url(../imagenes/Contact-Us-Header.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
 
-.contacto__formulario--info {
-	padding: 30px 40px;
-}
-
-.contacto {
-	background: url(../imagenes/contacto2.jpg) no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	font-family: 'Raleway', sans-serif;
-	padding: 80px;
-}
-
-.contacto__formulario--form {
-	display: block;
-	font-size: 17px;
-	font-weight: normal;
-	color: $color-texto-claro;
-	text-align: center;
-	background-color: rgba(0, 41, 38, 0.35);
-	border: 1px solid rgba(255, 255, 255, 0.5);
-	margin-bottom: 20px;
-	font-family: 'Raleway', sans-serif;
-	outline: none;
-	transition: all 0.5s ease-in-out;
-}
-
-.contacto__formulario--imput__username {
-
-	height: 45px;
-	width: 95%;
-	padding: 0 25px;
-
-	&:focus {
-		background-color: color-fondo-transparente;
-		border: 1px solid $color-texto-claro;
-	}
-}
-
-.contacto__formulario--imput__email {
-
-	height: 45px;
-	width: 95%;
-	padding: 0 25px;
-
-	&:focus {
-		background-color: color-fondo-transparente;
-		border: 1px solid $color-texto-claro;
-	}
-}
-
-.contacto__formulario--text__message {
-
-	height: 135px;
-	width: 95%;
-	padding: 15px;
-
-	&:focus {
-		background-color: color-fondo-transparente;
-		border: 1px solid $color-texto-claro;
-	}
-}
-
-.contacto__formulario--imput__sign-in {
-	width: 100%;
-	height: 50px;
-	font-size: 20px;
-	font-weight: normal;
-	color: $color-texto-claro;
-	display: block;
-	background-color: $color-no-ok;
-	border-color: $color-no-ok;
-	font-family: 'Roboto Condensed', sans-serif;
-	transition: all 0.5s ease-in-out;
-	outline: none;
-	cursor: pointer;
-
-	&:hover {
-		background-color: $color-ok;
-		border-color: $color-ok;
-		color: $color-texto-claro;
-	}
-}
-
-.contacto__formulario--titulo {
-	font-size: 25px;
-	font-weight: normal;
-	color: $color-texto-claro;
-	text-align: CENTER;
-	padding-bottom: 20px;
-	text-transform: uppercase;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.contacto__formulario--clear {
-	clear: both;
-}
+  #intro-contacto{
+    height: 50vh !important;
+  }

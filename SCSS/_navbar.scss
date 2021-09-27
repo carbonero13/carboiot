@@ -1,68 +1,85 @@
-.navbar {
-	background-color: $color-fondo-transparente-menu;
-	height: 60px !important;
-	font-size: 20px;
-}
+/* NavBar */
 
-.navbar-nav {
-	li {
-		&:nth-child(1) {
-			&:hover {
-				background: map-get($colorlogo, logo-c);
-			}
-		}
-
-		&:nth-child(2) {
-			&:hover {
-				background: map-get($colorlogo, logo-a);
-			}
-		}
-
-		&:nth-child(3) {
-			&:hover {
-				background: map-get($colorlogo, logo-r);
-			}
-		}
-
-		&:nth-child(4) {
-			&:hover {
-				background: map-get($colorlogo, logo-b);
-			}
-		}
-
-		&:nth-child(5) {
-			&:hover {
-				background-color: map-get($colorlogo, logo-o);
-			}
-		}
-
-		a {
-			text-decoration: none;
-			color: yellow;
-			padding: 16px;
-			background-image: linear-gradient(currentColor, currentColor);
-			background-position: 0% 100%;
-			background-repeat: no-repeat;
-			background-size: 0% 2px;
-			transition: background-size .3s;
-		}
-	}
-
-	a {
-		&:hover {
-			background-size: 100% 2px;
-		}
-
-		&:focus {
-			background-size: 100% 2px;
-		}
-	}
-}
-.navbar-brand {
-	img {
-		height: 50px !important;
-	}
-}
-.top-nav-collapse {
-	background-color: $color-fondo;
-}
+.navbar-brand-desktop img {
+    /* padding-top: 5px; */
+    padding-right: 20px;
+    height: 50px !important;
+  }
+  
+  .navbar-brand-movil img {
+  
+    height: 35px !important;
+  }
+  
+  .navbar-nav li:nth-child(1):hover {
+    background: #00bfc8;
+  }
+  
+  .navbar-nav li:nth-child(2):hover {
+    background: #ff9af1;
+  }
+  
+  .navbar-nav li:nth-child(3):hover {
+    background: #adc900;
+  }
+  
+  .navbar-nav li:nth-child(4):hover {
+    background: #ff8500;
+  }
+  
+  .navbar-nav li:nth-child(5):hover {
+    background-color: #b82c8d;
+  }
+  
+  .navbar-nav a:hover {
+    background-size: 100% 2px;
+  }
+  
+  .navbar-nav a:focus {
+    background-size: 100% 2px;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 60px !important;
+    font-size: 20px;
+  
+  }
+  
+  .navbar-nav li a {
+    text-decoration: none;
+    /* color: yellow; */
+  
+    padding-bottom: 10px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+  }
+  
+  
+  
+  .btn-info {
+    background-color: #00bfc8;
+    height: 70%;
+  }
+  
+  .btn-danger {
+    background-color: #ff9af1;
+  }
+  
+  .btn-success {
+    background-color: #adc900;
+  }
+  
+  .btn-warning {
+    background-color: #ff8500;
+  }
+  
+  .btn-secondary {
+    background-color: #b82c8d;
+  }
+  .navbar .nav-link {
+    color: #fff !important;
+  }

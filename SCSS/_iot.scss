@@ -1,14 +1,11 @@
-.iot {
-    background: url(../imagenes/IoT_D.png) no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-	font-family: 'Raleway', sans-serif;
-	padding: 80px;
-    & h2{
-        color: $color-texto-claro;
-    }
-    & p{
-        color: $color-texto-claro;
-    }
-}
+.mask-iot{
+    background-image: url(../imagenes/contacto.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+  
+  #intro-iot{
+    height: 60vh !important;
+    
+  }

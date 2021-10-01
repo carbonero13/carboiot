@@ -39,6 +39,36 @@
   border-radius: 50%;
 }
 
+.bk-center-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bk-color-carrusel {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bk-fondo-footer {
+  background-color: #1C2331;
+}
+
+.bk-fondo-footer-claro {
+  background-color: #2d384e;
+}
+
+.z-index-2000 {
+  z-index: 2000;
+}
+
+.h-seccion {
+  height: 131px;
+}
+
+.bk-transparente-claro {
+  background-color: rgba(251, 251, 251, 0.15);
+}
+
 /*contacto*/
 .mask-custom {
   backdrop-filter: blur(15px);
@@ -51,9 +81,6 @@
 
 .mask-contacto {
   background-image: url(../imagenes/Contact-Us-Header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 #intro-contacto {
@@ -63,7 +90,7 @@
 /*  Red Social*/
 .social {
   padding: 15px;
-  color: grey;
+  color: #777;
   text-align: center;
 }
 
@@ -136,30 +163,18 @@
 
 .carousel-item:nth-child(1) {
   background-image: url("../imagenes/IoT_v8.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
   background-image: url("../imagenes/Industria4.0.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
   background-image: url("../imagenes/massey-furgeson-fuse.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .carousel-item:nth-child(4) {
   background-image: url("../imagenes/microsoftteams-image-2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 /* NavBar */
@@ -174,19 +189,19 @@
 }
 
 .navbar-nav li:nth-child(1):hover {
-  background: #00bfc8;
+  background-color: #00bfc8;
 }
 
 .navbar-nav li:nth-child(2):hover {
-  background: #ff9af1;
+  background-color: #ff9af1;
 }
 
 .navbar-nav li:nth-child(3):hover {
-  background: #adc900;
+  background-color: #adc900;
 }
 
 .navbar-nav li:nth-child(4):hover {
-  background: #ff8500;
+  background-color: #ff8500;
 }
 
 .navbar-nav li:nth-child(5):hover {
@@ -246,9 +261,6 @@
 /*Nosotros*/
 .mask-nosotros {
   background-image: url(../imagenes/muppets1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 #intro-nosotros {
@@ -269,9 +281,6 @@
 
 .mask-servicios {
   background-image: url(../imagenes/iot-sector-industrial.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 /*timeline*/
@@ -297,7 +306,8 @@
   position: relative;
 }
 
-.timeline .timeline-item:before, .timeline .timeline-item:after {
+.timeline .timeline-item:before,
+.timeline .timeline-item:after {
   content: "";
   display: table;
 }
@@ -326,29 +336,31 @@
   border-bottom-left-radius: 50%;
 }
 
-.timeline .timeline-item .timeline-badge i, .timeline .timeline-item .timeline-badge .fa, .timeline .timeline-item .timeline-badge .glyphicon {
+.timeline .timeline-item .timeline-badge i,
+.timeline .timeline-item .timeline-badge .fa,
+.timeline .timeline-item .timeline-badge .glyphicon {
   top: 2px;
   left: 0px;
 }
 
 .timeline .timeline-item .timeline-badge.primary {
-  background-color: #1f9eba;
+  background-color: #00bfc8;
 }
 
 .timeline .timeline-item .timeline-badge.info {
-  background-color: #5bc0de;
+  background-color: #ff9af1;
 }
 
 .timeline .timeline-item .timeline-badge.success {
-  background-color: #59ba1f;
+  background-color: #adc900;
 }
 
 .timeline .timeline-item .timeline-badge.warning {
-  background-color: #d1bd10;
+  background-color: #ff8500;
 }
 
 .timeline .timeline-item .timeline-badge.danger {
-  background-color: #ba1f1f;
+  background-color: #b82c8d;
 }
 
 .timeline .timeline-item .timeline-panel {
@@ -360,8 +372,8 @@
   background: #fff;
   border-radius: 2px;
   padding: 20px;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 .timeline .timeline-item .timeline-panel:before {
@@ -381,7 +393,8 @@
   color: inherit;
 }
 
-.timeline .timeline-item .timeline-panel .timeline-body > p, .timeline .timeline-item .timeline-panel .timeline-body > ul {
+.timeline .timeline-item .timeline-panel .timeline-body > p,
+.timeline .timeline-item .timeline-panel .timeline-body > ul {
   margin-bottom: 0;
 }
 
@@ -405,11 +418,14 @@
   right: auto;
 }
 
+.timeline-inline-block {
+  display: inline-block;
+  width: 100%;
+  overflow-y: auto;
+}
+
 .mask-iot {
   background-image: url(../imagenes/iot.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 #intro-iot {

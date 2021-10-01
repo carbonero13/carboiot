@@ -1,14 +1,30 @@
-$color-fondo:#1C2331;
+$color-fondo-footer:#1C2331; 
+$color-fondo-footer-claro:#2d384e; 
 $color-texto-claro:#f5f5f5;
-$color-fondo-transparente:rgba(0, 0, 0, 0.5);
-$color-fondo-transparente-menu:rgba(0, 0, 0, 0.2);
 $color-ok:#2ecc71;
 $color-no-ok:#e74c3c;
 $color-borde-gris:#e5e5e5;
-$colorlogo: (
-    logo-c:#00bfc8,
-    logo-a:#ff9af1,
-    logo-r:#adc900,
-    logo-b:#ff8500,
-    logo-o:#b82c8d
-);
+$color-texto-blanca:#fff;
+$color-logo-letra-c:#00bfc8;
+$color-logo-letra-a:#ff9af1;
+$color-logo-letra-r:#adc900;
+$color-logo-letra-b:#ff8500;
+$color-logo-letra-o:#b82c8d;
+$color-transparente: #000000;
+$color-transparente-claro:#fbfbfb;
+$color-transparente-claro-15:rgba($color-transparente-claro, 0.15);
+$color-transparente-2: rgba($color-transparente, 0.2);
+$color-transparente-3: rgba($color-transparente, 0.3);
+$color-transparente-5: rgba($color-transparente, 0.5);
+$color-transparente-6: rgba($color-transparente, 0.6);
+$borde-gris:#777;
+$back-oscuro:#333;
+$back-claro:#eee;
+$back-facebook: #3b5998;
+$back-twitter: #1da1f2;
+$back-instagram: #C13584;
+$back-linkedin: #0077b5;
+$back-whatsapp: #00bb2d;
+$back-marker: #ff8500;
+$back-envelope: coral;
+$back-phone: darkviolet;

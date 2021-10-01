@@ -12,23 +12,23 @@
   }
   
   .navbar-nav li:nth-child(1):hover {
-    background: #00bfc8;
+    background-color:  $color-logo-letra-c;
   }
   
   .navbar-nav li:nth-child(2):hover {
-    background: #ff9af1;
+    background-color:  $color-logo-letra-a;
   }
   
   .navbar-nav li:nth-child(3):hover {
-    background: #adc900;
+    background-color:  $color-logo-letra-r;
   }
   
   .navbar-nav li:nth-child(4):hover {
-    background: #ff8500;
+    background-color:  $color-logo-letra-b;
   }
   
   .navbar-nav li:nth-child(5):hover {
-    background-color: #b82c8d;
+    background-color: $color-logo-letra-o;
   }
   
   .navbar-nav a:hover {
@@ -40,7 +40,7 @@
   }
   
   .navbar {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: $color-transparente-6;
     height: 60px !important;
     font-size: 20px;
   
@@ -61,25 +61,25 @@
   
   
   .btn-info {
-    background-color: #00bfc8;
+    background-color: $color-logo-letra-c;
     height: 70%;
   }
   
   .btn-danger {
-    background-color: #ff9af1;
+    background-color: $color-logo-letra-a;
   }
   
   .btn-success {
-    background-color: #adc900;
+    background-color: $color-logo-letra-r;
   }
   
   .btn-warning {
-    background-color: #ff8500;
+    background-color: $color-logo-letra-b;
   }
   
   .btn-secondary {
-    background-color: #b82c8d;
+    background-color: $color-logo-letra-o;
   }
   .navbar .nav-link {
-    color: #fff !important;
+    color: $color-texto-blanca !important;
   }

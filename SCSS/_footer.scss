@@ -2,7 +2,7 @@
 
 .social {
     padding: 15px;
-    color: grey;
+    color: $borde-gris;
     text-align: center;
   }
   
@@ -14,8 +14,8 @@
     height: 45px;
     text-align: center;
     line-height: 45px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: $color-texto-blanca;
+    border: 1px solid $color-texto-blanca;
     transition: all 0.7s ease-in-out;
     margin-left: 10px;
     margin-right: 10px;
@@ -26,43 +26,43 @@
   .social__icon a i.fas:hover {
     border-radius: 50%;
   }
-  
+
   .social__icon a i.fa.fa-facebook:hover {
-    background-color: #3b5998;
-    color: #fff;
+    background-color: $back-facebook;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-twitter:hover {
-    background-color: #1da1f2;
-    color: #fff;
+    background-color: $back-twitter;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-instagram:hover {
-    background-color: #C13584;
-    color: #fff;
+    background-color: $back-instagram;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-linkedin:hover {
-    background-color: #0077b5;
-    color: #fff;
+    background-color: $back-linkedin;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-whatsapp:hover {
-    background-color: #00bb2d;
-    color: #fff;
+    background-color: $back-whatsapp;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fas.fa-map-marker-alt:hover {
-    background-color: #ff8500;
-    color: #fff;
+    background-color: $back-marker;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-envelope-o:hover {
-    background-color: coral;
-    color: #fff;
+    background-color: $back-envelope;
+    color: $color-texto-blanca;
   }
   
   .social__icon a i.fa.fa-phone:hover {
-    background-color: darkviolet;
-    color: #fff;
+    background-color: $back-phone;
+    color: $color-texto-blanca;
   }
